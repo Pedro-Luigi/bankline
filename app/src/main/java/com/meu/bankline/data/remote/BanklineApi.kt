@@ -8,4 +8,5 @@ interface BanklineApi {
 
     @GET("movimentacoes/{id}")
     suspend fun findBankStatement(@Path("id") accountHolderId: Int): List<Movimentacao>
+
 }

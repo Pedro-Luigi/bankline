@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.meu.bankline.R
+import com.meu.bankline.databinding.ActivityBankStatementBinding
 import com.meu.bankline.databinding.BankStatementItemBinding
 import com.meu.bankline.domain.Movimentacao
 import com.meu.bankline.domain.TipoMovimentacao

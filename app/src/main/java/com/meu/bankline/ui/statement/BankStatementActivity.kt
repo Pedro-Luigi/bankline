@@ -8,8 +8,6 @@ import com.google.android.material.snackbar.Snackbar
 import com.meu.bankline.data.State
 import com.meu.bankline.databinding.ActivityBankStatementBinding
 import com.meu.bankline.domain.Correntista
-import com.meu.bankline.domain.Movimentacao
-import com.meu.bankline.domain.TipoMovimentacao
 import java.lang.IllegalArgumentException
 
 class BankStatementActivity : AppCompatActivity() {
@@ -57,4 +55,5 @@ class BankStatementActivity : AppCompatActivity() {
 
         }
     }
+
 }
